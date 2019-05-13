@@ -1,0 +1,28 @@
+C:\Users\USER\Desktop\New folder\rosterApp\RosterAPI\RosterAPI\bin\Debug\netcoreapp2.2\RosterAPI.deps.json
+C:\Users\USER\Desktop\New folder\rosterApp\RosterAPI\RosterAPI\bin\Debug\netcoreapp2.2\RosterAPI.runtimeconfig.json
+C:\Users\USER\Desktop\New folder\rosterApp\RosterAPI\RosterAPI\bin\Debug\netcoreapp2.2\RosterAPI.runtimeconfig.dev.json
+C:\Users\USER\Desktop\New folder\rosterApp\RosterAPI\RosterAPI\bin\Debug\netcoreapp2.2\RosterAPI.dll
+C:\Users\USER\Desktop\New folder\rosterApp\RosterAPI\RosterAPI\obj\Debug\netcoreapp2.2\RosterAPI.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\New folder\rosterApp\RosterAPI\RosterAPI\obj\Debug\netcoreapp2.2\RosterAPI.RazorAssemblyInfo.cache
+C:\Users\USER\Desktop\New folder\rosterApp\RosterAPI\RosterAPI\obj\Debug\netcoreapp2.2\RosterAPI.RazorAssemblyInfo.cs
+C:\Users\USER\Desktop\New folder\rosterApp\RosterAPI\RosterAPI\obj\Debug\netcoreapp2.2\RosterAPI.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\New folder\rosterApp\RosterAPI\RosterAPI\obj\Debug\netcoreapp2.2\RosterAPI.AssemblyInfo.cs
+C:\Users\USER\Desktop\New folder\rosterApp\RosterAPI\RosterAPI\obj\Debug\netcoreapp2.2\RosterAPI.RazorTargetAssemblyInfo.cache
+C:\Users\USER\Desktop\New folder\rosterApp\RosterAPI\RosterAPI\bin\Debug\netcoreapp2.2\RosterAPI.pdb
+C:\Users\USER\Desktop\New folder\rosterApp\RosterAPI\RosterAPI\obj\Debug\netcoreapp2.2\RosterAPI.dll
+C:\Users\USER\Desktop\New folder\rosterApp\RosterAPI\RosterAPI\obj\Debug\netcoreapp2.2\RosterAPI.pdb
+C:\Users\USER\Desktop\New folder\rosterApp\RosterAPI\RosterAPI\obj\Debug\netcoreapp2.2\RosterAPI.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\New folder\git repos\RosterApp\RosterAPI\RosterAPI\bin\Debug\netcoreapp2.2\RosterAPI.deps.json
+C:\Users\USER\Desktop\New folder\git repos\RosterApp\RosterAPI\RosterAPI\bin\Debug\netcoreapp2.2\RosterAPI.runtimeconfig.json
+C:\Users\USER\Desktop\New folder\git repos\RosterApp\RosterAPI\RosterAPI\bin\Debug\netcoreapp2.2\RosterAPI.runtimeconfig.dev.json
+C:\Users\USER\Desktop\New folder\git repos\RosterApp\RosterAPI\RosterAPI\bin\Debug\netcoreapp2.2\RosterAPI.dll
+C:\Users\USER\Desktop\New folder\git repos\RosterApp\RosterAPI\RosterAPI\bin\Debug\netcoreapp2.2\RosterAPI.pdb
+C:\Users\USER\Desktop\New folder\git repos\RosterApp\RosterAPI\RosterAPI\obj\Debug\netcoreapp2.2\RosterAPI.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\New folder\git repos\RosterApp\RosterAPI\RosterAPI\obj\Debug\netcoreapp2.2\RosterAPI.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\New folder\git repos\RosterApp\RosterAPI\RosterAPI\obj\Debug\netcoreapp2.2\RosterAPI.RazorAssemblyInfo.cache
+C:\Users\USER\Desktop\New folder\git repos\RosterApp\RosterAPI\RosterAPI\obj\Debug\netcoreapp2.2\RosterAPI.RazorAssemblyInfo.cs
+C:\Users\USER\Desktop\New folder\git repos\RosterApp\RosterAPI\RosterAPI\obj\Debug\netcoreapp2.2\RosterAPI.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\New folder\git repos\RosterApp\RosterAPI\RosterAPI\obj\Debug\netcoreapp2.2\RosterAPI.AssemblyInfo.cs
+C:\Users\USER\Desktop\New folder\git repos\RosterApp\RosterAPI\RosterAPI\obj\Debug\netcoreapp2.2\RosterAPI.RazorTargetAssemblyInfo.cache
+C:\Users\USER\Desktop\New folder\git repos\RosterApp\RosterAPI\RosterAPI\obj\Debug\netcoreapp2.2\RosterAPI.dll
+C:\Users\USER\Desktop\New folder\git repos\RosterApp\RosterAPI\RosterAPI\obj\Debug\netcoreapp2.2\RosterAPI.pdb

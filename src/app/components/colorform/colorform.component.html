@@ -1,0 +1,32 @@
+<div class="modal-header">
+  <h4 class="modal-title" id="modal-basic-title">Add Color</h4>
+  <button type="button" class="close" aria-label="Close" [mat-dialog-close]>
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body">
+  <form [formGroup]="formData" (ngSubmit)="onSubmitColor(form)" #form="ngForm">
+      <div class="container">
+          <mat-form-field [ngClass]="{'has-error' : formData.get('ColorName').errors &&
+           (formData.get('ColorName').touched || formData.get('ColorName').dirty)}">
+              <input matInput type="text" class="form-control" formControlName="ColorName" placeholder="Enter Name">
+              <span class="help-block" *ngIf="formData.get('ColorName').errors &&
+              (formData.get('ColorName').touched || formData.get('ColorName').dirty)">
+                <span *ngIf="formData.get('ColorName').errors.required">Color Name Required</span>
+              </span>
+          </mat-form-field>
+          <mat-form-field [ngClass]="{'has-error' : formData.get('ColorCode').errors &&
+          (formData.get('ColorCode').touched || formData.get('ColorCode').dirty)}">
+              <input matInput type="text" class="form-control" formControlName="ColorCode"  placeholder="Enter Color Code">
+              <span class="help-block" *ngIf="formData.get('ColorCode').errors &&
+              (formData.get('ColorCode').touched || formData.get('ColorCode').dirty)">
+                <span *ngIf="formData.get('ColorCode').errors.required">Color Code Required</span>
+              </span>
+          </mat-form-field>
+      </div>
+      <div style="text-align: center" class="row">
+      <button mat-raised-button color="primary" type="submit" [disabled]="formData.invalid">Save</button> | 
+      <button mat-raised-button color="warn" [mat-dialog-close]>Close</button>
+      </div>
+  </form>
+</div>

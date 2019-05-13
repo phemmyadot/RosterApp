@@ -1,0 +1,27 @@
+<div>
+  <h1>Roster</h1>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Name</th>
+        <th scope="col">Description</th>
+        <th scope="col">Color</th>
+        <th scope="col"></th>
+        <th scope="col"><button class="btn btn-sm btn-outline-warning" (click)="openDialog(null, roster)">Add Roster</button></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor='let roster of rosterService.rosterList'>
+        <th scope="row">{{roster.RosterID}}</th>
+        <td>{{roster.RosterName}}</td>
+        <td>{{roster.RosterDescription}}</td>
+        <td [ngStyle]="{'background-color': roster.ColorName}"></td>
+        <td><button class="btn btn-sm btn-outline-warning" (click)="openEditDialog(null, roster)">Edit</button>
+        </td>
+        <td><button class="btn btn-sm btn-outline-danger" (click)="deleteRoster(roster.RosterID)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

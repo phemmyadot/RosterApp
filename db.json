@@ -1,0 +1,66 @@
+{
+  "Roster": [
+    {
+      "id": 4,
+      "RosterName": "west",
+      "RosterDescription": "eee",
+      "ColorName": {
+        "id": 5,
+        "Name": "blue",
+        "ColorCode": "blue"
+      }
+    },
+    {
+      "id": 7,
+      "RosterName": "wewe",
+      "RosterDescription": "wwewewe",
+      "ColorName": {
+        "id": 4,
+        "Name": "green",
+        "ColorCode": "green"
+      }
+    },
+    {
+      "id": 9,
+      "RosterName": "wwwwww",
+      "RosterDescription": "wwwwwdd",
+      "ColorName": {
+        "id": 6,
+        "Name": "red",
+        "ColorCode": "red"
+      }
+    },
+    {
+      "id": 10,
+      "RosterName": "ee",
+      "RosterDescription": "ee",
+      "ColorName": {
+        "id": 15,
+        "Name": "orange",
+        "ColorCode": "orange"
+      }
+    }
+  ],
+  "Color": [
+    {
+      "id": 4,
+      "Name": "green",
+      "ColorCode": "green"
+    },
+    {
+      "id": 5,
+      "Name": "blue",
+      "ColorCode": "blue"
+    },
+    {
+      "id": 14,
+      "Name": "pink",
+      "ColorCode": "pink"
+    },
+    {
+      "id": 15,
+      "Name": "orange",
+      "ColorCode": "orange"
+    }
+  ]
+}

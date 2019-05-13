@@ -1,0 +1,24 @@
+
+<div>
+  <h1>Color</h1>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Name</th>
+        <th scope="col">Color Code</th>
+        <th scope="col"><button class="btn btn-sm btn-outline-primary" (click)="openColorDialog(null, color)" >Add Color</button> 
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor='let color of colorservice.colorList'>
+        <th scope="row">{{color.ColorID}}</th>
+        <td>{{color.ColorName}}</td>
+        <td>{{color.ColorCode}}</td>
+        <td><button class="btn btn-sm btn-outline-danger" (click)="deleteColor(color.ColorID)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,42 @@
+<div class="modal-header">
+  <h4 class="modal-title" id="modal-basic-title">Add Roster</h4>
+  <button type="button" class="close" aria-label="Close" [mat-dialog-close]>
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body">
+  <form [formGroup]="formData" (ngSubmit)="onSubmitRoster(form)" #form="ngForm">
+      <div class="container">
+          <mat-form-field [ngClass]="{'has-error' : formData.get('RosterName').errors &&
+          (formData.get('RosterName').touched || formData.get('RosterName').dirty)}">
+              <input matInput type="text" class="form-control" formControlName="RosterName" placeholder="Enter Name">
+              <span class="help-block" *ngIf="formData.get('RosterName').errors &&
+              (formData.get('RosterName').touched || formData.get('RosterName').dirty)">
+                <span *ngIf="formData.get('RosterName').errors.required">Roster Name Required</span>
+              </span>
+          </mat-form-field>
+          <mat-form-field [ngClass]="{'has-error' : formData.get('RosterDescription').errors &&
+          (formData.get('RosterDescription').touched || formData.get('RosterDescription').dirty)}">
+              <textarea matInput type="text" class="form-control" formControlName="RosterDescription" placeholder="Enter Description"></textarea>
+              <span class="help-block" *ngIf="formData.get('RosterDescription').errors &&
+                (formData.get('RosterDescription').touched || formData.get('RosterDescription').dirty)">
+                <span *ngIf="formData.get('RosterDescription').errors.required">Roster Description Required</span>
+              </span>
+          </mat-form-field>
+          <mat-form-field [ngClass]="{'has-error' : formData.get('ColorName').errors &&
+          (formData.get('ColorName').touched || formData.get('ColorName').dirty)}">
+            <mat-select placeholder="Select" (change)="onColorSelected($event.target.value)" formControlName="ColorName">
+              <mat-option *ngFor='let color of colorService.colorList' [value]="color.ColorName">{{color.ColorName}}</mat-option>
+            </mat-select>
+            <span class="help-block" *ngIf="formData.get('ColorName').errors &&
+              (formData.get('ColorName').touched || formData.get('ColorName').dirty)">
+              <span *ngIf="formData.get('ColorName').errors.required">Color Code Required</span>
+            </span>
+          </mat-form-field>
+      </div>
+      <div style="text-align: center" class="row">
+      <button mat-raised-button color="primary" type="submit" [disabled]="formData.invalid">Save</button> | 
+      <button mat-raised-button color="warn" [mat-dialog-close]>Close</button>
+      </div>
+  </form>
+</div>

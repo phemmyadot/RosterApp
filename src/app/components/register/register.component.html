@@ -1,0 +1,33 @@
+<form [formGroup]="formData" (ngSubmit)="onSubmit(form)" #form="ngForm">
+  <div class="example-container">
+    <mat-form-field>
+      <input matInput placeholder="Enter your Full Name" class="form-control"  formControlName="fullname" autocomplete="cc-csc" required>
+      <mat-error *ngIf="formData.hasError('required', 'fullname')">
+        Field cannot be empty 
+      </mat-error>
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Enter your email" class="form-control"  formControlName="username" autocomplete="cc-csc" required>
+      <mat-error *ngIf="formData.hasError('required', 'username')">
+        Please enter your valid email
+      </mat-error>
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="New password" formControlName="password" [type]="hide ? 'password' : 'text'" autocomplete="current-password" required>
+      <mat-error *ngIf="formData.hasError('required', 'password')">
+        Please enter your new password
+      </mat-error>
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Confirm password" [type]="hide ? 'password' : 'text'" formControlName="confirmpassword" [errorStateMatcher]="matcher" autocomplete="current-password">
+        <mat-error *ngIf="formData.hasError('notSame')">
+        Passwords do not match
+      </mat-error>  
+    </mat-form-field>
+    <div style="text-align: center" class="row">
+        <button mat-raised-button color="primary" type="submit" [disabled]="formData.invalid">Sign Up</button>
+        <!-- <button mat-raised-button color="warn">Close</button> -->
+        <p>Already Register? <a  [routerLink]="['/register']">Click here!</a></p>
+        </div>
+  </div>
+</form>

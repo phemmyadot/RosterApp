@@ -1,0 +1,12 @@
+<div *ngIf="User">
+    <p>Welcome, {{User.FullName}}!</p>
+</div>
+<div [ngStyle]="{'text-align': 'center'}">
+<button mat-button [matMenuTriggerFor]="menu" (click)="switchTab(1)">Roster</button>
+<button mat-button [matMenuTriggerFor]="menu" (click)="switchTab(2)">Color</button>
+<button mat-button [matMenuTriggerFor]="menu" (click)="onLogout()" class="logoutbtn">Logout!</button>
+<mat-menu #menu="matMenu"></mat-menu>
+  <br/><hr/>
+</div>
+<app-add-roster *ngIf="isRoster"></app-add-roster>
+<app-color *ngIf="isColor"></app-color>
